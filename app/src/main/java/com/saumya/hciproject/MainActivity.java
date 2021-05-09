@@ -1,3 +1,6 @@
+//License: Apache License 2.0
+// Attribution : Saumya Omanakuttan
+
 package com.saumya.hciproject;
 
 import androidx.appcompat.app.AlertDialog;
