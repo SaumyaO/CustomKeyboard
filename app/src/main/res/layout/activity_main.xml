@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@drawable/border">
+
+        <Button
+            android:id="@+id/btnradius"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="5px"
+            android:text="Get Radius" />
+
+
+        <Spinner
+            android:id="@+id/Handside"
+            android:layout_width="175dp"
+            android:layout_height="100px"
+            android:textAlignment="center"
+             />
+
+        <Spinner
+            android:id="@+id/keyboard"
+            android:layout_width="175dp"
+            android:layout_height="100px"
+            />
+
+        <Button
+            android:id="@+id/btnext"
+            android:layout_width="110dp"
+            android:layout_height="100px"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginLeft="10px"
+            android:text="Confirm" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:id="@+id/textdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="175px"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110px"
+        android:layout_marginStart="15px"
+        android:layout_marginEnd="15px"
+        android:hint="Text to be Copied"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/textid"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300px"
+        android:textSize="25dp"
+        android:cursorVisible="true"
+        android:layout_marginStart="15px"
+        android:layout_marginEnd="15px"
+        android:focusable="false"
+        android:hint="Type Here The Above Text.."
+        android:textColor="@color/black"/>
+
+
+
+
+</RelativeLayout>
