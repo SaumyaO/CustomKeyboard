@@ -1,4 +1,7 @@
 # This is an android application where three keyboard design  are being demonstrated.
+
+The keyboard is customed as per the user Thumbspace(While holding the device single handed the area accessible by the user's Thumb of the same hand)
+
 <img src=https://user-images.githubusercontent.com/56184814/117561028-aeba7d00-b058-11eb-90cd-7d6f8bb525ec.png width =250>     <img src=https://user-images.githubusercontent.com/56184814/117561038-c1cd4d00-b058-11eb-82f4-e4871faac993.png width =250> 
 ## 1. Linear Keyboard.
 <img src=https://user-images.githubusercontent.com/56184814/117560953-1ae8b100-b058-11eb-9f34-9e6eb33e5415.png width =250>     <img src=https://user-images.githubusercontent.com/56184814/117560956-1ae8b100-b058-11eb-80ea-3322a8eb79e5.png width =250>    <img src=https://user-images.githubusercontent.com/56184814/117560957-1b814780-b058-11eb-9629-70cb9c7167bb.png width =250>
